@@ -1,5 +1,5 @@
 import { Text, View, StyleSheet } from "react-native";
-import React, { Component } from "react";
+import React from "react";
 import { MaterialIcons } from "@expo/vector-icons"; // Import icon library
 import { NavigationProp, useNavigation } from "@react-navigation/native";
 import { RootStackParamList } from "@/components/RootParamList";

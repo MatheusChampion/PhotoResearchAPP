@@ -2,14 +2,13 @@ import React from "react";
 // Reference for icons https://icons.expo.fyi/Index
 import FontAwesome from "@expo/vector-icons/FontAwesome";
 import Entypo from "@expo/vector-icons/Entypo";
-import { View, StyleSheet, Platform, Image } from "react-native";
+import { Image } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import HomeScreen from "@/app/index";
 import ShopScreen from "@/app/shop";
 import MenuScreen from "@/app/menu";
 import AccountScreen from "@/app/account";
 import ListScreen from "@/app/list";
-import { Tabs } from "expo-router";
 import { RootStackParamList } from "@/components/RootParamList";
 
 // Creation of a bottom tab navigator

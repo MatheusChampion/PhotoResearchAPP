@@ -1,5 +1,4 @@
-import { Text, View, StyleSheet, ScrollView } from "react-native";
-import { Link } from "expo-router";
+import { StyleSheet, ScrollView } from "react-native";
 import React, { useState } from "react";
 import Header from "@/components/Header";
 import Body from "@/components/Body";

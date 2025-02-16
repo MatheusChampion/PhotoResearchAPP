@@ -1,5 +1,4 @@
 import { Text, View, StyleSheet, TextInput, Switch } from "react-native";
-import Checkbox from "expo-checkbox";
 import React, { Component } from "react";
 
 export class AccountScreen extends Component {
