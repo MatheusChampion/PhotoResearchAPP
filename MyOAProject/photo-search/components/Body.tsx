@@ -1,7 +1,11 @@
 import React from "react";
 import { Text, View, StyleSheet, Image } from "react-native";
+import { NavigationProp, useNavigation } from "@react-navigation/native";
+import { RootStackParamList } from "@/components/RootParamList";
 
 export default function Body() {
+    const navigation = useNavigation<NavigationProp<RootStackParamList>>(); // Use the useNavigation hook to access the navigation prop * Helped by Copilot
+
     return (
         <View style={styles.bodyContainer}>
             <View style={styles.block}>
@@ -16,22 +20,12 @@ export default function Body() {
                     Enjoy limit time savings on top brands during the Refresh
                     for Les event. Shop with us.
                 </Text>
-                <Text style={styles.button}>Go to Shop</Text>
-            </View>
-            <View style={styles.block}>
-                <View style={styles.block}>
-                    <Image
-                        source={require("@/assets/images/placeholder.png")}
-                        style={styles.home_template}
-                    />
-                    <Text style={styles.bodyTitle}>
-                        Check the prodictrs on your list
-                    </Text>
-                    <Text style={styles.bodyText}>
-                        Have save products saved for later.
-                    </Text>
-                    <Text style={styles.button}>Go to List</Text>
-                </View>
+                <Text
+                    style={styles.button}
+                    onPress={() => navigation.navigate("Shop")} // Navigate to the shop screen on click
+                >
+                    Go to Shop
+                </Text>
             </View>
             <View style={styles.block}>
                 <View style={styles.block}>
@@ -46,7 +40,32 @@ export default function Body() {
                         Create an account with us and keep track of your order
                         and exclusive deals.
                     </Text>
-                    <Text style={styles.button}>Create account/Login</Text>
+                    <Text
+                        style={styles.button}
+                        onPress={() => navigation.navigate("Account")} // Navigate to the account screen on click
+                    >
+                        Create account/Login
+                    </Text>
+                </View>
+            </View>
+            <View style={styles.block}>
+                <View style={styles.block}>
+                    <Image
+                        source={require("@/assets/images/placeholder.png")}
+                        style={styles.home_template}
+                    />
+                    <Text style={styles.bodyTitle}>
+                        Check the prodictrs on your list
+                    </Text>
+                    <Text style={styles.bodyText}>
+                        Have save products saved for later.
+                    </Text>
+                    <Text
+                        style={styles.button}
+                        onPress={() => navigation.navigate("List")} // Navigate to the list screen on click
+                    >
+                        Go to List
+                    </Text>
                 </View>
             </View>
         </View>
@@ -58,7 +77,7 @@ const styles = StyleSheet.create({
         flex: 1,
     },
     block: {
-        backgroundColor: "rgb(255, 255, 255)", // Set a background color for the blocks
+        backgroundColor: "#fff", // Set a background color for the blocks
         marginBottom: 20, // Add space of 10 at the bottom of each block
     },
     home_template: {
