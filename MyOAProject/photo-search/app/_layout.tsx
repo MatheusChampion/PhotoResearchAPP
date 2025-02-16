@@ -8,7 +8,7 @@ import HomeScreen from "@/app/index";
 import ShopScreen from "@/app/shop";
 import MenuScreen from "@/app/menu";
 import AccountScreen from "@/app/account";
-import ListScreen from "@/app/list"; 
+import ListScreen from "@/app/list";
 import { Tabs } from "expo-router";
 import { RootStackParamList } from "@/components/RootParamList";
 
@@ -21,7 +21,7 @@ export default function TabsLayout() {
         <Tab.Navigator
             screenOptions={{
                 tabBarActiveTintColor: "#f96302", // Set the active tab color
-                tabBarInactiveTintColor: "gray", // Set the inactive tab color
+                tabBarInactiveTintColor: "#666", // Set the inactive tab color
                 tabBarLabelStyle: {
                     fontFamily: "Helvetica Neue",
                     fontSize: 10,
@@ -40,9 +40,11 @@ export default function TabsLayout() {
                 component={HomeScreen}
                 options={{
                     title: "Home",
-                    tabBarIcon: () => (
+                    tabBarIcon: ({ focused }) => (
                         <Image
-                            source={require("@/assets/images/icon.png")}
+                            source={
+                                focused ? require("@/assets/images/icon.png") : require("@/assets/images/icon-bnw.png") // Set the icon for the Home tab based on the focus state of the tab 
+                            }
                             style={{
                                 width: 30,
                                 height: 30,
