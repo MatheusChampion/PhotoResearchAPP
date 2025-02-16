@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
     logo: {
         width: 60,
         height: 60,
-        resizeMode: "contain", // Adjust the image to fit within the specified dimensions
+        resizeMode: "contain", // Adjust the image to fit the container
         alignSelf: "center",
         marginVertical: 50,
     },
@@ -90,6 +90,7 @@ const styles = StyleSheet.create({
         borderColor: "#ddd",
         marginHorizontal: 10,
         marginBottom: 10,
+        borderRadius: 5,
     },
     searchIcon: {
         marginRight: 8,

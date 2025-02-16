@@ -8,11 +8,12 @@ import HomeScreen from "@/app/index";
 import ShopScreen from "@/app/shop";
 import MenuScreen from "@/app/menu";
 import AccountScreen from "@/app/account";
-import ListScreen from "@/app/list";
+import ListScreen from "@/app/list"; 
 import { Tabs } from "expo-router";
+import { RootStackParamList } from "@/components/RootParamList";
 
 // Creation of a bottom tab navigator
-const Tab = createBottomTabNavigator();
+const Tab = createBottomTabNavigator<RootStackParamList>();
 
 export default function TabsLayout() {
     return (
@@ -35,7 +36,7 @@ export default function TabsLayout() {
             }}
         >
             <Tab.Screen //Set tabs for the bottom tab navigator
-                name="index"
+                name="Home"
                 component={HomeScreen}
                 options={{
                     title: "Home",
@@ -52,7 +53,7 @@ export default function TabsLayout() {
                 }}
             />
             <Tab.Screen
-                name="shop"
+                name="Shop"
                 component={ShopScreen}
                 options={{
                     title: "Shop",
@@ -62,7 +63,7 @@ export default function TabsLayout() {
                 }}
             />
             <Tab.Screen
-                name="account"
+                name="Account"
                 component={AccountScreen}
                 options={{
                     title: "My Account",
@@ -76,7 +77,7 @@ export default function TabsLayout() {
                 }}
             />
             <Tab.Screen
-                name="list"
+                name="List"
                 component={ListScreen}
                 options={{
                     title: "My List",
@@ -86,7 +87,7 @@ export default function TabsLayout() {
                 }}
             />
             <Tab.Screen
-                name="menu"
+                name="Menu"
                 component={MenuScreen}
                 options={{
                     title: "Menu",
