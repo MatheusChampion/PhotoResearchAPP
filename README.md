@@ -94,3 +94,35 @@ Make sure you have the following installed:
  
   - "React: How to Update State.item1 in State Using setState." Stack Overflow, https://stackoverflow.com/questions/29537299/react-how-to-update-state-item1-in-state-using-setstate. Accessed 25 Feb. 2025.
   - "createContext." React Documentation, https://react.dev/reference/react/createContext. Accessed 25 Feb. 2025.
+
+
+## Running Application Demo
+
+**PAGES**
+![Home Page](./screenshot_app_running/Home_Page.png)
+![Shop Page](./screenshot_app_running/Shop_Page.png)
+![Account Page](./screenshot_app_running/Log_in.png)
+![List Page](./screenshot_app_running/My_List_Default.png)
+![Menu Page](./screenshot_app_running/Menu.png)
+
+**IMAGE SEARCH**
+![Select image](./screenshot_app_running/Photo_Research_Option_Select.png)
+![Uplaod Image](./screenshot_app_running/Upload_Image.png)
+![Result](./screenshot_app_running/Result.png)
+
+**SEARCH**
+![Search](./screenshot_app_running/word_search.png)
+
+**SAVE/ADD CART**
+![Save](./screenshot_app_running/Save_option.png)
+![Saved](./screenshot_app_running/Saved_Items.png)
+![Add to Cart](./screenshot_app_running/Add_Cart.png)
+
+**LOGGED IN**
+![User Page](./screenshot_app_running/Logged_in.png)
+
+**FILTER**
+![Select department](./screenshot_app_running/Category.png)
+
+**LOADING LOGO**
+![Loading Page](./screenshot_app_running/Loading.png)
