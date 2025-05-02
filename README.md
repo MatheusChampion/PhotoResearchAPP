@@ -98,52 +98,52 @@ Make sure you have the following installed:
 
 ## Running Application Demo
 
+### PAGES
 
-**PAGES**
+<div style="display: flex; gap: 10px;">
+  <img src="./screenshot_app_running/Home_Page.png" alt="Home Page" width="208" height="427" />
+  <img src="./screenshot_app_running/Shop_Page.png" alt="Shop Page" width="208" height="427" />
+  <img src="./screenshot_app_running/Log_in.png" alt="Account Page" width="208" height="427" />
+  <img src="./screenshot_app_running/My_List_Default.png" alt="List Page" width="208" height="427" />
+  <img src="./screenshot_app_running/Menu.png" alt="Menu Page" width="208" height="427" />
+</div>
 
+### IMAGE SEARCH
 
-<img src="./screenshot_app_running/Home_Page.png" alt="Home Page" width="208" height="427" />
-<img src="./screenshot_app_running/Shop_Page.png" alt="Shop Page" width="208" height="427" />
-<img src="./screenshot_app_running/Log_in.png" alt="Account Page" width="208" height="427" />
-<img src="./screenshot_app_running/My_List_Default.png" alt="List Page" width="208" height="427" />
-<img src="./screenshot_app_running/Menu.png" alt="Menu Page" width="208" height="427" />
+<div style="display: flex; gap: 10px;">
+  <img src="./screenshot_app_running/Photo_Research_Option_Select.png" alt="Select image" width="208" height="427" />
+  <img src="./screenshot_app_running/Upload_Image.png" alt="Upload Image" width="208" height="427" />
+  <img src="./screenshot_app_running/Result.png" alt="Result" width="208" height="427" />
+</div>
 
+### SEARCH
 
-**IMAGE SEARCH**
+<div style="display: flex; gap: 10px;">
+  <img src="./screenshot_app_running/word_search.png" alt="Search" width="208" height="427" />
+</div>
 
+### SAVE/ADD CART
 
-<img src="./screenshot_app_running/Photo_Research_Option_Select.png" alt="Select image" width="208" height="427" />
-<img src="./screenshot_app_running/Upload_Image.png" alt="Upload Image" width="208" height="427" />
-<img src="./screenshot_app_running/Result.png" alt="Result" width="208" height="427" />
+<div style="display: flex; gap: 10px;">
+  <img src="./screenshot_app_running/Save_option.png" alt="Save" width="208" height="427" />
+  <img src="./screenshot_app_running/Saved_Items.png" alt="Saved" width="208" height="427" />
+  <img src="./screenshot_app_running/Add_Cart.png" alt="Add to Cart" width="208" height="427" />
+</div>
 
+### LOGGED IN
 
-**SEARCH**
+<div style="display: flex; gap: 10px;">
+  <img src="./screenshot_app_running/Logged_in.png" alt="User Page" width="208" height="427" />
+</div>
 
+### FILTER
 
-<img src="./screenshot_app_running/word_search.png" alt="Search" width="208" height="427" />
+<div style="display: flex; gap: 10px;">
+  <img src="./screenshot_app_running/Category.png" alt="Select department" width="208" height="427" />
+</div>
 
+### LOADING LOGO
 
-**SAVE/ADD CART**
-
-
-<img src="./screenshot_app_running/Save_option.png" alt="Save" width="208" height="427" />
-<img src="./screenshot_app_running/Saved_Items.png" alt="Saved" width="208" height="427" />
-<img src="./screenshot_app_running/Add_Cart.png" alt="Add to Cart" width="208" height="427" />
-
-
-**LOGGED IN**
-
-
-<img src="./screenshot_app_running/Logged_in.png" alt="User Page" width="208" height="427" />
-
-
-**FILTER**
-
-
-<img src="./screenshot_app_running/Category.png" alt="Select department" width="208" height="427" />
-
-
-**LOADING LOGO**
-
-
-<img src="./screenshot_app_running/Loading.png" alt="Loading Page" width="208" height="427" />
+<div style="display: flex; gap: 10px;">
+  <img src="./screenshot_app_running/Loading.png" alt="Loading Page" width="208" height="427" />
+</div>
