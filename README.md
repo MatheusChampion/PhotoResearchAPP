@@ -98,31 +98,52 @@ Make sure you have the following installed:
 
 ## Running Application Demo
 
+
 **PAGES**
-![Home Page](./screenshot_app_running/Home_Page.png)
-![Shop Page](./screenshot_app_running/Shop_Page.png)
-![Account Page](./screenshot_app_running/Log_in.png)
-![List Page](./screenshot_app_running/My_List_Default.png)
-![Menu Page](./screenshot_app_running/Menu.png)
+
+
+<img src="./screenshot_app_running/Home_Page.png" alt="Home Page" width="208" height="427" />
+<img src="./screenshot_app_running/Shop_Page.png" alt="Shop Page" width="208" height="427" />
+<img src="./screenshot_app_running/Log_in.png" alt="Account Page" width="208" height="427" />
+<img src="./screenshot_app_running/My_List_Default.png" alt="List Page" width="208" height="427" />
+<img src="./screenshot_app_running/Menu.png" alt="Menu Page" width="208" height="427" />
+
 
 **IMAGE SEARCH**
-![Select image](./screenshot_app_running/Photo_Research_Option_Select.png)
-![Uplaod Image](./screenshot_app_running/Upload_Image.png)
-![Result](./screenshot_app_running/Result.png)
+
+
+<img src="./screenshot_app_running/Photo_Research_Option_Select.png" alt="Select image" width="208" height="427" />
+<img src="./screenshot_app_running/Upload_Image.png" alt="Upload Image" width="208" height="427" />
+<img src="./screenshot_app_running/Result.png" alt="Result" width="208" height="427" />
+
 
 **SEARCH**
-![Search](./screenshot_app_running/word_search.png)
+
+
+<img src="./screenshot_app_running/word_search.png" alt="Search" width="208" height="427" />
+
 
 **SAVE/ADD CART**
-![Save](./screenshot_app_running/Save_option.png)
-![Saved](./screenshot_app_running/Saved_Items.png)
-![Add to Cart](./screenshot_app_running/Add_Cart.png)
+
+
+<img src="./screenshot_app_running/Save_option.png" alt="Save" width="208" height="427" />
+<img src="./screenshot_app_running/Saved_Items.png" alt="Saved" width="208" height="427" />
+<img src="./screenshot_app_running/Add_Cart.png" alt="Add to Cart" width="208" height="427" />
+
 
 **LOGGED IN**
-![User Page](./screenshot_app_running/Logged_in.png)
+
+
+<img src="./screenshot_app_running/Logged_in.png" alt="User Page" width="208" height="427" />
+
 
 **FILTER**
-![Select department](./screenshot_app_running/Category.png)
+
+
+<img src="./screenshot_app_running/Category.png" alt="Select department" width="208" height="427" />
+
 
 **LOADING LOGO**
-![Loading Page](./screenshot_app_running/Loading.png)
+
+
+<img src="./screenshot_app_running/Loading.png" alt="Loading Page" width="208" height="427" />
